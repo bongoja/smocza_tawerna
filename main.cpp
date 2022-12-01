@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-string imie, adres, smocza_tawerna;
+string imie, adres, nazwa_restauracji;
 int opcja, table_num, open_hours, rok, miesiac, dzien, open, close;
 // godziny otwarcia
 int main()
