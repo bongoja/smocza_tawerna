@@ -1,19 +1,20 @@
 #include <iostream>
 using namespace std;
-string imie, adres;
+string imie, adres, smocza_tawerna;
 int opcja, table_num, open_hours, rok, miesiac, dzien, open, close;
 // godziny otwarcia
 int main()
 {
     open = 10;
     close = 15;
+    nazwa_restauracji = "Smocza Tawerna";
     int i;
     for (i = open; i <= close; i++)
     {
         cout << "dziala!";
     }
     cout << endl;
-    cout << "Nazwa restauracji: Bar a Boo" << endl;
+    cout << "Nazwa restauracji: " << nazwa_restauracji << endl;
     cout << "Adres: ul. Taczaka, Poznań" << endl;
     cout << "Właściciel: Jan III Sobieski" << endl;
     cout << "Podaj Imię" << endl;
