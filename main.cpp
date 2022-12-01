@@ -1,7 +1,6 @@
 #include <iostream>
 #include "dane.cpp"
 #include "menu.cpp"
-#include "menu.txt"
 #include "summary.cpp"
 using namespace std;
 string imie, adres, nazwa_restauracji, firma;
@@ -9,10 +8,14 @@ int opcja, table_num, open_hours, rok, miesiac, dzien, open, close;
 // godziny otwarcia
 int main()
 {
+
+    // dostep do pliku
+    readFile();
+
     open = 10;
     close = 15;
     nazwa_restauracji = "Smocza Tawerna";
-    firma = "Adres: ul. Taczaka, Poznań";
+    firma = "Adres: ul. Wilczyryja 5, Smoczyraj";
     int i;
     for (i = open; i <= close; i++)
     {
@@ -21,7 +24,7 @@ int main()
     cout << endl;
     cout << "Nazwa restauracji: " << nazwa_restauracji << endl;
     cout << firma << endl;
-    cout << "Właściciel: Jan III Sobieski" << endl;
+    cout << "Właściciel: Robert Lewandowski" << endl;
     cout << "Podaj Imię" << endl;
     cin >> imie;
 
@@ -32,6 +35,7 @@ int main()
     cout << "Wybierz opcje 1 lub 2" << endl;
     cin >> opcja;
 
+    string ulica, nr_domu, kod_pocztowy, miasto;
     switch (opcja)
     {
     case 1:
@@ -43,10 +47,22 @@ int main()
     }
     case 2:
     {
+
+        // wprowadz adres dowozu
         cout << "Zamawiam na dowoz" << endl;
         cout << "Podaj adres" << endl;
-        cin >> adres;
-        cout << "Podaj datę, rok" << endl;
+        cout << "Ulica" << endl;
+        cin >> ulica;
+        cout << "Nr domu" << endl;
+        cin >> nr_domu;
+        cout << "Kod pocztowy" << endl;
+        cin >> kod_pocztowy;
+        cout << "Miasto" << endl;
+        cin >> miasto;
+
+        // wprowadz czas zamowienia
+        cout << "Podaj adres" << endl;
+        cout << "Na kiedy? Wpisz datę,rok: " << endl;
         cin >> rok;
         cout << "Podaj miesiąc" << endl;
         cin >> miesiac;
