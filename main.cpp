@@ -1,6 +1,10 @@
 #include <iostream>
+#include "dane.cpp"
+#include "menu.cpp"
+#include "menu.txt"
+#include "summary.cpp"
 using namespace std;
-string imie, adres, nazwa_restauracji;
+string imie, adres, nazwa_restauracji, firma;
 int opcja, table_num, open_hours, rok, miesiac, dzien, open, close;
 // godziny otwarcia
 int main()
@@ -8,6 +12,7 @@ int main()
     open = 10;
     close = 15;
     nazwa_restauracji = "Smocza Tawerna";
+    firma = "Adres: ul. Taczaka, Poznań";
     int i;
     for (i = open; i <= close; i++)
     {
@@ -15,7 +20,7 @@ int main()
     }
     cout << endl;
     cout << "Nazwa restauracji: " << nazwa_restauracji << endl;
-    cout << "Adres: ul. Taczaka, Poznań" << endl;
+    cout << firma << endl;
     cout << "Właściciel: Jan III Sobieski" << endl;
     cout << "Podaj Imię" << endl;
     cin >> imie;
