@@ -1,11 +1,11 @@
-id; Nazwa; Waga; Cena; Czas_przygotowania; sładnik1,składnik2,składnik3; 
-1; Smocza zupa; 200ml; 15; 20; Oko Goblina, pomidory, mix warzyw;
-2; Wywar z Rycerza; 200ml; 10; 15; Młody rycerz, smocza krew, cytryna;
-3; Duszony Ogr; 350kg; 45; 30; Ogr,warzywa z złotego ogrodu,whisky;
-4; Farmerski specjał; 220kg; 40; 30; kotlet, kosmiczny ser, jajo feniksa;
-5; Pieczony MobyDick; 3t; 30; 25; Mityczny wieloryb; frytki łódeczki, sos pomidorowy;
-6; Wegetarian burger; 15kg; 20;15; jajko, prażona cebula, sałata;
-7; Kufel piwa; 15l; 10;1; piwo,wiecej piwa,piwo;
-8; Spejał knajpy; 100l; 15;2; Beczka wina, , ;
-9; Drink bezalkoholowy; 5l; 12;1; Smoczy owoc, sok z cytryny, ananas;
-10; Vodka 60%; 5l; 15;1; Potrójna wóda, z podwójna wódą, ogórek;
+id; Nazwa; Waga; Cena; Czas_przygotowania; sładnik1,składnik2,składnik3...
+1; Smocza zupa; 200ml; 15; 20; Oko Goblina, pomidory, mix warzyw
+2; Wywar z Rycerza; 200ml; 10; 15; Mlody rycerz, smocza krew, cytryna
+3; Duszony Ogr; 350kg; 45; 30; Ogr, warzywa z zlotego ogrodu, whisky
+4; Farmerski specjal; 220kg; 40; 30; kotlet, kosmiczny ser, jajo feniksa
+5; Pieczony MobyDick; 3t; 30; 25; Mityczny wieloryb, frytki lodeczki, sos pomidorowy
+6; Wegetarian burger; 15kg; 20; 15; jajko, prazona cebula, salata
+7; Kufel piwa; 15l; 10; 1; piwo
+8; Spejal knajpy; 100l; 15; 2; Beczka wina
+9; Drink bezalkoholowy; 5l; 12; 1; Smoczy owoc, sok z cytryny, ananas
+10; Vodka 60%; 5l; 15; 1; Potrojna woda, z podwojna woda, ogorek
